@@ -19,5 +19,5 @@ function addNewElementAsLi(){
 
 function addNewLiOnClick(){
   input.addEventListener("click", addNewElementAsLi(event))
-  delete input
+  input = document.querySelector("input")
 }
