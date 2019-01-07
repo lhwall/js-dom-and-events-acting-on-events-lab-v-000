@@ -12,6 +12,8 @@ function retrieveEmployeeInformation(){
 return input.value
 }
 
+let list = (".employee-list")
+
 function addNewElementAsLi(){
-  $(".employee-list").append("<li>", retrieveEmployeeInformation() ,"<li>")
+  list.append("<li>", retrieveEmployeeInformation() ,"<li>")
 }
