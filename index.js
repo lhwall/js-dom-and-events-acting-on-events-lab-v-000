@@ -19,7 +19,7 @@ function addNewElementAsLi(){
 
 function insideAddnew(){
   addNewElementAsLi(event)
-  document.querySelector("input").innerTML = ""
+  document.querySelector("input").innerHTML = ""
 }
 
 function addNewLiOnClick(){
