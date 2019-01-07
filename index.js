@@ -14,7 +14,7 @@ return input.value
 
 function addNewElementAsLi(){
   newName = retrieveEmployeeInformation()
-  document.querySelector(".employee-list").append(<li>, newName, </li>)
+  document.querySelector(".employee-list").append("<li>", newName, "</li>")
 }
 
 function addNewLiOnClick(){
