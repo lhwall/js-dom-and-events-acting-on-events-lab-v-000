@@ -18,7 +18,6 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
-  input.addEventListener("click", function(e){
-    addNewElementAsLi()
-  input = ""}
+  input.addEventListener("click", addNewElementAsLi()
+
 }
