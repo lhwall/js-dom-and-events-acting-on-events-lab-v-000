@@ -11,9 +11,7 @@ let input = document.querySelector("input")
 function retrieveEmployeeInformation(){
 return input.value
 }
-
-let list = (".employee-list")
-
 function addNewElementAsLi(){
-  return "<script> list.append("<li>", retrieveEmployeeInformation() ,"<li>" </script>")
+  newName = retrieveEmployeeInformation()
+  document.querySelector(".employee-list").append("<li>", newName, "</li>")
 }
