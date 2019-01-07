@@ -32,7 +32,7 @@ function clearEmployeeListOnLinkClick(){
   let clearButton = document.querySelector("a")
   let list = document.querySelector(".employee-list")
   clearButton.addEventListener("click", function(e){
-    list.value = ""
+    list.innerHTML = ""
   })
 
 }
