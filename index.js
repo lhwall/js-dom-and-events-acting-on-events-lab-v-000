@@ -24,6 +24,6 @@ function insideAddnew(){
 
 function addNewLiOnClick(){
   let inputType = document.querySelector("input[type='submit']")
-  submit.addEventListener("click", insideAddnew(event)
+  inputType.addEventListener("click", insideAddnew(event)
     )
 }
