@@ -7,5 +7,5 @@ function preventRefreshOnSubmit(){
 preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation(){
-  
+document.querySelector("input").addEventListener("click", function(event){return event.which})
 }
