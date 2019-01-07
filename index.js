@@ -27,3 +27,8 @@ function addNewLiOnClick(){
   inputType.addEventListener("click", insideAddnew(event)
     )
 }
+
+function clearEmployeeListOnLinkClick(){
+  document.querySelector(".employee-list").value = ""
+
+}
