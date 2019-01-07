@@ -17,8 +17,11 @@ function addNewElementAsLi(){
   document.querySelector(".employee-list").append("<li>", newName, "</li>")
 }
 
+function insideAddnew(){
+  addNewElementAsLi(event)
+}
+
 function addNewLiOnClick(){
-  input.addEventListener("click", 
-    addNewElementAsLi(event)
+  input.addEventListener("click", insideAddnew(event)
     )
 }
