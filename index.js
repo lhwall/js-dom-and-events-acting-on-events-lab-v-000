@@ -15,5 +15,5 @@ return input.value
 let list = (".employee-list")
 
 function addNewElementAsLi(){
-  list.append("<li>", retrieveEmployeeInformation() ,"<li>")
+  return "<script> list.append("<li>", retrieveEmployeeInformation() ,"<li>" </script>")
 }
