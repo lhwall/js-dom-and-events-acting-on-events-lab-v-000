@@ -13,5 +13,5 @@ return input.value
 }
 
 function addNewElementAsLi(){
-  $(".employee-list").append(`<li> ${retrieveEmployeeInformation()} <li>`)
+  $(".employee-list").append("<li>", retrieveEmployeeInformation() ,"<li>")
 }
