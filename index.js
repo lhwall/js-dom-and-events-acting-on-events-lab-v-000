@@ -19,7 +19,7 @@ function addNewElementAsLi(){
 
 function insideAddnew(){
   addNewElementAsLi(event)
-  inputType = ""
+  document.querySelector("input") = ""
 }
 
 function addNewLiOnClick(){
